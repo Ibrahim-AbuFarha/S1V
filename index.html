@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Empower your business with comprehensive marketing and operational support. Elevate your brand's potential with expert digital solutions. Contact us today!"
+    />
+    <title>S1V</title>
+    <link rel="icon" href="img/S1V-logo.png" />
+    <!-- boostrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- general css-->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <!--slick css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--MAIN JS-->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="header position-relative">
+      <!-- bootstap classes-->
+      <nav class="d-flex justify-content-between pt-5 container">
+        <a href="#">
+          <img src="img/S1V-logo.png" alt="S1V logo" />
+        </a>
+        <button class="open-menu">
+          <div class="burger-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+        </button>
+      </nav>
+      <!-- MENU hidden -->
+      <div class="menu hidden">
+        <nav class="d-flex justify-content-between pt-5 container">
+          <a href="#"> <img src="img/S1V-logo.png" alt="S1V logo" /></a>
+          <button class="close-menu">
+            <img src="img/close.png" alt="close menu" />
+          </button>
+        </nav>
+
+        <div class="menu-nav container">
+          <ul class="menu-nav-list">
+            <li class="menu-nav-link"><a href="#header">HOME</a></li>
+            <li class="menu-nav-link"><a href="#about">ABOUT</a></li>
+            <li class="menu-nav-link"><a href="#services">OUR SERVICES</a></li>
+            <li class="menu-nav-link">
+              <a href="#testimonials">TESTIMONIALS</a>
+            </li>
+          </ul>
+          <ul class="menu-nav-list">
+            <li class="menu-nav-link"><a href="#clients">OUR CUSTOMERS</a></li>
+            <li class="menu-nav-link"><a href="#contact">CONTACT US</a></li>
+          </ul>
+          <ul class="social-links">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29.165"
+                height="23.328"
+                viewBox="0 0 29.165 23.328"
+              >
+                <path
+                  id="twitter-_154_"
+                  data-name="twitter-[#154]"
+                  d="M13.172,7384.329A16.776,16.776,0,0,0,30.2,7367.574c0-.26,0-.512-.018-.772a12.049,12.049,0,0,0,2.985-3.046,12.1,12.1,0,0,1-3.436.931,5.942,5.942,0,0,0,2.631-3.266,11.911,11.911,0,0,1-3.8,1.43,6.065,6.065,0,0,0-8.467-.248,5.833,5.833,0,0,0-1.731,5.626A17.126,17.126,0,0,1,6.03,7362.08a5.838,5.838,0,0,0,1.853,7.857,6.147,6.147,0,0,1-2.717-.728v.07a5.934,5.934,0,0,0,4.8,5.775,6.049,6.049,0,0,1-2.7.089,5.971,5.971,0,0,0,5.59,4.1,12.032,12.032,0,0,1-7.431,2.524c-.475,0-.951-.029-1.425-.072a17.25,17.25,0,0,0,9.172,2.636"
+                  transform="translate(-4 -7361.001)"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </li>
+
+            <li>
+              <svg
+                id="Dribbble-Light-Preview"
+                xmlns="http://www.w3.org/2000/svg"
+                width="23.852"
+                height="23.843"
+                viewBox="0 0 23.852 23.843"
+              >
+                <g id="icons">
+                  <path
+                    id="instagram-_167_"
+                    data-name="instagram-[#167]"
+                    d="M291,7279.145a6.576,6.576,0,0,0-6.9,6.887c-.055,1.194-.374,10.259.551,12.631a6.008,6.008,0,0,0,3.471,3.461,8.365,8.365,0,0,0,2.88.546c10.566.478,14.484.228,16.136-4.007a8.592,8.592,0,0,0,.551-2.872c.483-10.59-.079-12.893-1.92-14.729-1.461-1.452-3.179-2.444-14.767-1.917m.1,21.4a7.035,7.035,0,0,1-2.2-.4,3.919,3.919,0,0,1-2.252-2.258c-.7-1.8-.471-10.373-.408-11.759a5.085,5.085,0,0,1,1.3-3.565c1.186-1.18,2.72-1.765,13.159-1.288a5.1,5.1,0,0,1,3.568,1.288c1.187,1.182,1.776,2.731,1.3,13.132a6.458,6.458,0,0,1-.408,2.192c-1.074,2.755-3.546,3.138-14.047,2.658m9.706-15.951a1.424,1.424,0,1,0,1.424-1.422,1.42,1.42,0,0,0-1.424,1.422m-11,6.321a6.094,6.094,0,1,0,6.093-6.084,6.081,6.081,0,0,0-6.093,6.084m2.138,0a3.955,3.955,0,1,1,3.955,3.947,3.948,3.948,0,0,1-3.955-3.947"
+                    transform="translate(-284 -7279.001)"
+                    fill-rule="evenodd"
+                  />
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12.799"
+                height="23.662"
+                viewBox="0 0 12.799 23.662"
+              >
+                <path
+                  id="facebook-svgrepo-com"
+                  d="M22.849,5.005,19.293,5c-3.448,0-5.676,2.284-5.676,5.824v2.683H10.05v4.856h3.568l0,10.3H18.6l0-10.3H22.7l0-4.855h-4.09V11.233c0-1.095.259-1.649,1.684-1.649h2.545l.011-4.577Z"
+                  transform="translate(-10.05 -5.001)"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--HERO  -->
+      <div>
+        <div class="container">
+          <div class="hero-slider d-flex">
+            <div class="hero-text-box active">
+              <h1 class="heading-primary">GROW & SCALE</h1>
+              <p class="hero-description">
+                We provide comprehensive support for businesses looking to take
+                their marketing & operations to the next level.
+              </p>
+            </div>
+
+            <div class="hero-text-box">
+              <h1 class="heading-primary">LEAD & GROW</h1>
+              <p class="hero-description">
+                Our mission is to effectively lead businesses towards
+                sustainable growth by providing strategic insights, innovative
+                solutions, and expert guidance.
+              </p>
+            </div>
+            <div class="hero-text-box">
+              <h1 class="heading-primary">BUILD & RISE</h1>
+              <p class="hero-description">
+                We offer comprehensive assistance and personalized strategies
+                for businesses aiming to elevate and expand their marketing and
+                operations effectively.
+              </p>
+            </div>
+            <div class="hero-text-box">
+              <h1 class="heading-primary">RISE & GROW</h1>
+              <p class="hero-description">
+                We help businesses rise to new heights and grow exponentially
+                with our dedicated support and guidance.
+              </p>
+            </div>
+            <div class="hero-text-box">
+              <h1 class="heading-primary">Learn & Adapt</h1>
+              <p class="hero-description">
+                Embrace continuous learning and adaptability for sustainable
+                growth and success in an ever-evolving business landscape.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-btn-container">
+            <a class="hero-contact-btn" href="#contact">
+              Contact Us &UpperRightArrow;</a
+            >
+            <!-- slider navigation -->
+            <div class="slider-navigation">
+              <div class="nav-btn active"></div>
+              <div class="nav-btn"></div>
+              <div class="nav-btn"></div>
+              <div class="nav-btn"></div>
+              <div class="nav-btn"></div>
+            </div>
+            <!-- hero slider buttons -->
+            <div>
+              <button class="back-btn hero-prev">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="next-btn hero-next">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--img SLIDES-->
+      <div>
+        <img
+          class="hero-img active"
+          src="img/slide1.png"
+          alt="girl practicing photoshop "
+        />
+        <img
+          class="hero-img"
+          src="img/slide2.webp"
+          alt="analyzing problems with team members"
+        />
+        <img class="hero-img" src="img/slide3.webp" alt="team work project" />
+        <img
+          class="hero-img"
+          src="img/slide4.webp"
+          alt="presntation with team"
+        />
+        <img
+          class="hero-img"
+          src="img/slide5.webp"
+          alt="presntation with team"
+        />
+
+        <!-- OVERLAY -->
+        <img
+          class="overLay-hero-img"
+          src="img/overLay.png"
+          alt="overLay hero img "
+        />
+      </div>
+    </header>
+    <div class="circle"></div>
+    <main>
+      <!-- SECTION SERVICES -->
+      <section id="services" class="section-services opacity-0">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h3 class="subheading">FEATURED SERVICES</h3>
+              <h2 class="heading-secondary">OUR SERVICES</h2>
+            </div>
+            <p class="section-overview">
+              We provide comprehensive support for businesses looking to take
+              their marketing & operations to the next level.
+            </p>
+          </div>
+          <ul class="services-cards">
+            <li class="services-card">
+              <img
+                class="services-card-icon"
+                src="img/management.png"
+                alt="service icon"
+              />
+              <p class="subheading">Website and Mobile Development</p>
+              <p>
+                Website and mobile development including Ecommerce with
+                shoify,custom solutions
+              </p>
+            </li>
+            <li class="services-card">
+              <img
+                class="services-card-icon"
+                src="img/bullhorn.png"
+                alt="service icon"
+              />
+              <p class="subheading">Digital Marketing</p>
+              <p>
+                [ Social media management , Ads , influencers , content , SEO ]
+              </p>
+            </li>
+            <li class="services-card">
+              <img
+                class="services-card-icon"
+                src="img/bullhorn.png"
+                alt="service icon"
+              />
+              <p class="subheading">Operation Management</p>
+              <p>
+                [ Warehousing Solutions , Logistics , fulfilment services ,
+                Procurement ]
+              </p>
+            </li>
+            <li class="services-card">
+              <img
+                class="services-card-icon"
+                src="img/management.png"
+                alt="service icon"
+              />
+              <p class="subheading">Growth & Scale Services</p>
+              <p>
+                [ Strategy , fractional executive team , Advisory services ,
+                funding ]
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- SECTION TESTIMONIALS-->
+      <section id="testimonials" class="section-testimonials opacity-0">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h3 class="subheading">WHAT PEOPLE SAYS</h3>
+              <h2 class="heading-secondary">TESTIMONIALS</h2>
+            </div>
+            <p class="section-overview">
+              We provide comprehensive support for businesses looking to take
+              their marketing & operations to the next level.
+            </p>
+          </div>
+
+          <div class="position-relative">
+            <div class="testimonials-slider d-flex">
+              <div class="testimonials-slide">
+                <div class="testimonials-img">
+                  <img
+                    class="testimonials-profile-img"
+                    src="img/testimonial1.png"
+                    alt="testimonials-profile-img"
+                  />
+                  <div class="testimonials-quote">
+                    <img
+                      class="qoute-img"
+                      src="img/quotes.png"
+                      alt="qoute-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonials-text-box">
+                  <p>
+                    I'm so grateful to AKA Digital and Business Solutions for
+                    helping my business grow! They have always provided
+                    excellent service and have been there to answer all of my
+                    questions. I am very pleased with the results and I would
+                    highly recommend them to anyone looking for Digital
+                    Marketing services in Canada
+                  </p>
+                  <div class="testimonials-text-box-info">
+                    <img
+                      class="testimonials-text-box-info-img"
+                      src="img/testimonial1.png"
+                      alt="testimonials-profile-img"
+                    />
+                    <div>
+                      <p class="heading-tertiary">Amr Darawsheh</p>
+                      <p>ART DIRECTOR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-slide">
+                <div class="testimonials-img">
+                  <img
+                    class="testimonials-profile-img"
+                    src="img/testimonial2.png"
+                    alt="testimonials-profile-img"
+                  />
+                  <div class="testimonials-quote">
+                    <img
+                      class="qoute-img"
+                      src="img/quotes.png"
+                      alt="qoute-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonials-text-box">
+                  <p>
+                    I'm so grateful to AKA Digital and Business Solutions for
+                    helping my business grow! They have always provided
+                    excellent service and have been there to answer all of my
+                    questions. I am very pleased with the results and I would
+                    highly recommend them to anyone looking for Digital
+                    Marketing services in Canada
+                  </p>
+                  <div class="testimonials-text-box-info">
+                    <img
+                      class="testimonials-text-box-info-img"
+                      src="img/testimonial2.png"
+                      alt="testimonials-profile-img"
+                    />
+                    <div>
+                      <p class="heading-tertiary">Ahmed Darawsheh</p>
+                      <p>ART DIRECTOR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="back-btn testimonials-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="next-btn testimonials-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION ABOUT-->
+      <section id="about" class="opacity-0">
+        <img class="abstact-img" src="img/abstact-BG.png" alt="abstact-bg" />
+        <div class="container about">
+          <div class="about-header">
+            <h3 class="subheading">ABOUT US</h3>
+            <h2 class="heading-secondary">
+              1STOP VENTURE <span class="about-circle"></span>
+            </h2>
+            <p>
+              Our team of experienced professionals are always available to
+              offer expert advice and support to ensure that our clients get the
+              most out of their digital marketing campaigns. With our help,
+              businesses can reach their target audience and drive sales with
+              the help of effective digital marketing strategies.
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="img/about.png" alt="about-img" />
+          </div>
+        </div>
+      </section>
+      <!-- OUR CLIENTS-->
+      <section id="clients" class="section-clients opacity-0">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h3 class="subheading">OUR HAPPY CLIENTS</h3>
+              <h2 class="heading-secondary">OUR CUSTOMERS</h2>
+            </div>
+            <p class="section-overview">
+              We provide comprehensive support for businesses looking to take
+              their marketing & operations to the next level.
+            </p>
+          </div>
+          <ul class="client-list">
+            <li>
+              <img class="client" src="img/client1.png" alt="our client" />
+            </li>
+            <li>
+              <img class="client" src="img/client2.png" alt="our client" />
+            </li>
+            <li>
+              <img class="client" src="img/client1.png" alt="our client" />
+            </li>
+            <li>
+              <img class="client" src="img/client2.png" alt="our client" />
+            </li>
+          </ul>
+          <img class="map" src="img/map.png" alt="map-img" />
+        </div>
+      </section>
+      <!--CONTACT US-->
+      <section id="contact" class="section-contact opacity-0">
+        <div class="container contact-box">
+          <div class="contact-aside">
+            <h3 class="subheading">GET IN TOUCH</h3>
+            <h2 class="heading-secondary">LET'S MAKE YOUR BRAND BRILLIANT!</h2>
+            <p>
+              If you would like to work with us or just want to get in touch,
+              we’d love to hear from you!
+            </p>
+            <p class="contact-phone">+1 604 522 5685</p>
+            <ul class="social-links">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="29.165"
+                  height="23.328"
+                  viewBox="0 0 29.165 23.328"
+                >
+                  <path
+                    id="twitter-_154_"
+                    data-name="twitter-[#154]"
+                    d="M13.172,7384.329A16.776,16.776,0,0,0,30.2,7367.574c0-.26,0-.512-.018-.772a12.049,12.049,0,0,0,2.985-3.046,12.1,12.1,0,0,1-3.436.931,5.942,5.942,0,0,0,2.631-3.266,11.911,11.911,0,0,1-3.8,1.43,6.065,6.065,0,0,0-8.467-.248,5.833,5.833,0,0,0-1.731,5.626A17.126,17.126,0,0,1,6.03,7362.08a5.838,5.838,0,0,0,1.853,7.857,6.147,6.147,0,0,1-2.717-.728v.07a5.934,5.934,0,0,0,4.8,5.775,6.049,6.049,0,0,1-2.7.089,5.971,5.971,0,0,0,5.59,4.1,12.032,12.032,0,0,1-7.431,2.524c-.475,0-.951-.029-1.425-.072a17.25,17.25,0,0,0,9.172,2.636"
+                    transform="translate(-4 -7361.001)"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li>
+                <svg
+                  id="Dribbble-Light-Preview"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23.852"
+                  height="23.843"
+                  viewBox="0 0 23.852 23.843"
+                >
+                  <g id="icons">
+                    <path
+                      id="instagram-_167_"
+                      data-name="instagram-[#167]"
+                      d="M291,7279.145a6.576,6.576,0,0,0-6.9,6.887c-.055,1.194-.374,10.259.551,12.631a6.008,6.008,0,0,0,3.471,3.461,8.365,8.365,0,0,0,2.88.546c10.566.478,14.484.228,16.136-4.007a8.592,8.592,0,0,0,.551-2.872c.483-10.59-.079-12.893-1.92-14.729-1.461-1.452-3.179-2.444-14.767-1.917m.1,21.4a7.035,7.035,0,0,1-2.2-.4,3.919,3.919,0,0,1-2.252-2.258c-.7-1.8-.471-10.373-.408-11.759a5.085,5.085,0,0,1,1.3-3.565c1.186-1.18,2.72-1.765,13.159-1.288a5.1,5.1,0,0,1,3.568,1.288c1.187,1.182,1.776,2.731,1.3,13.132a6.458,6.458,0,0,1-.408,2.192c-1.074,2.755-3.546,3.138-14.047,2.658m9.706-15.951a1.424,1.424,0,1,0,1.424-1.422,1.42,1.42,0,0,0-1.424,1.422m-11,6.321a6.094,6.094,0,1,0,6.093-6.084,6.081,6.081,0,0,0-6.093,6.084m2.138,0a3.955,3.955,0,1,1,3.955,3.947,3.948,3.948,0,0,1-3.955-3.947"
+                      transform="translate(-284 -7279.001)"
+                      fill-rule="evenodd"
+                    />
+                  </g>
+                </svg>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12.799"
+                  height="23.662"
+                  viewBox="0 0 12.799 23.662"
+                >
+                  <path
+                    id="facebook-svgrepo-com"
+                    d="M22.849,5.005,19.293,5c-3.448,0-5.676,2.284-5.676,5.824v2.683H10.05v4.856h3.568l0,10.3H18.6l0-10.3H22.7l0-4.855h-4.09V11.233c0-1.095.259-1.649,1.684-1.649h2.545l.011-4.577Z"
+                    transform="translate(-10.05 -5.001)"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form">
+            <div class="form-boxes">
+              <div class="form-box">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-input" type="text" id="name" required />
+              </div>
+              <div class="form-box">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="text" id="email" required />
+              </div>
+            </div>
+            <div>
+              <label class="form-label" for="message">Your message</label>
+              <textarea
+                class="form-textarea"
+                name=""
+                id="message"
+                cols="30"
+                rows="8"
+              ></textarea>
+            </div>
+
+            <button type="button" class="form-btn">SEND</button>
+          </form>
+        </div>
+      </section>
+      <!-- FOOTER -->
+    </main>
+    <footer class="footer">
+      <div class="container container-footer">
+        <a href="#"><img src="img/S1V-logo.png" alt="S1V logo" /></a>
+        <div>
+          <ul class="footer-nav">
+            <li><a class="footer-nav-link" href="#header">HOME</a></li>
+            <li><a class="footer-nav-link" href="#about">ABOUT</a></li>
+            <li>
+              <a class="footer-nav-link" href="#services">OUR SERVICES</a>
+            </li>
+            <li>
+              <a class="footer-nav-link" href="#testimonials">TESTIMONIALS</a>
+            </li>
+            <li>
+              <a class="footer-nav-link" href="#clients">OUR CUSTOMERS</a>
+            </li>
+            <li><a class="footer-nav-link" href="#contact">CONTACT US</a></li>
+          </ul>
+          <p class="foteer-copyright">
+            Developed and Designed by Blue Ray for Web Solutions. All rights
+            reserved 2023©
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--loading-->
+
+    <div class="loader-container">
+      <div class="loader">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+        <span style="--i: 4"></span>
+        <span style="--i: 5"></span>
+        <span style="--i: 6"></span>
+        <span style="--i: 7"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 9"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+      </div>
+    </div>
+    <!-- boostrap js-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--slick js-->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+  </body>
+</html>
